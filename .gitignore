@@ -1,0 +1,14 @@
+# Секреты — никогда не коммитить
+*.jks
+*.keystore
+keystore.properties
+test-config/
+*.vpn
+*.conf
+
+# Журналы, выгруженные с ТВ (могут содержать IP и имена приложений)
+vpn-log-*.txt
+
+# macOS / флешка
+.DS_Store
+._*
