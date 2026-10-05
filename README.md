@@ -27,7 +27,7 @@ VPN-клиент AmneziaWG для телевизоров **Tuvio с Яндекс
 
 ## Скачать
 
-**[VPN-TV-1.1.0.apk](releases/VPN-TV-1.1.0.apk)** · SHA-256: [`SHA256SUMS`](releases/SHA256SUMS)
+**[⬇ Скачать VPN-TV-1.1.0.apk](releases/VPN-TV-1.1.0.apk)**
 
 ## Возможности
 
