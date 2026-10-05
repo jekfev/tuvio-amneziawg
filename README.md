@@ -1,16 +1,29 @@
-# VPN для ТВ — раздельный AmneziaWG для Android TV
+# VPN для ТВ — AmneziaWG для телевизоров Tuvio на Яндекс ТВ (YaOS)
 
 ![version](https://img.shields.io/badge/version-1.1.0-blue)
-![android](https://img.shields.io/badge/Android-11%2B-3DDC84?logo=android&logoColor=white)
+![os](https://img.shields.io/badge/Яндекс%20ТВ-YaOS%20(Android%2011)-FC3F1D)
 ![protocol](https://img.shields.io/badge/protocol-AmneziaWG-6f42c1)
 ![abi](https://img.shields.io/badge/ABI-armeabi--v7a%20%7C%20arm64--v8a-lightgrey)
 
-Приложение для телевизора, которое пускает через VPN **только выбранные приложения**
-(например, YouTube), а всё остальное работает напрямую. Протокол — официальный
-[AmneziaWG](https://github.com/amnezia-vpn/amneziawg-android). Управление пультом,
-Google Play не нужен.
+VPN-клиент AmneziaWG для телевизоров **Tuvio с Яндекс ТВ (YaOS)**. Через VPN идут
+**только выбранные приложения** (например, YouTube), всё остальное — напрямую.
+Управление пультом, Google Play не нужен.
 
-Проверено на **Tuvio (YaOS, Android 11)**.
+## Для кого
+
+У Amnezia есть приложение для Android TV, но на телевизорах Tuvio с YaOS оно не подходит.
+Это приложение сделано специально для них: ставится с флешки, работает без Google Play,
+управляется только пультом.
+
+| Модель | Прошивка | Статус |
+|---|---|---|
+| Tuvio TD43UFBSV1 | YaOS (Android 11) | ✅ проверено, YouTube через VPN работает |
+| Другие Tuvio с YaOS | — | скорее всего работает, не проверено |
+
+Проверили на другой модели — напишите в [Issues](../../issues), добавлю в таблицу.
+
+Нужен свой VPN-сервер Amnezia и файл конфигурации (`.vpn` из приложения Amnezia
+или `.conf` AmneziaWG). Сервер это приложение не даёт.
 
 ## Скачать
 
